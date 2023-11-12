@@ -4,44 +4,6 @@ import { ScrollView } from 'react-native-web'
 
 
 
-// const data =[
-//     {
-//         id: '1',
-//         pass: require('../assets/pass.png'),
-//         name : 'To check email',
-//         edit: require('../assets/edit.png'),
-//     },
-//     {
-//         id: '2',
-//         pass: require('../assets/pass.png'),
-//         name : 'UI task web page',
-//         edit: require('../assets/edit.png'),
-//     },
-//     {
-//         id: '3',
-//         pass: require('../assets/pass.png'),
-//         name : 'Learn javascript basic',
-//         edit: require('../assets/edit.png'),
-//     },
-//     {
-//         id: '4',
-//         pass: require('../assets/pass.png'),
-//         name : 'Learn HTML advance',
-//         edit: require('../assets/edit.png'),
-//     },
-//     {
-//         id: '5',
-//         pass: require('../assets/pass.png'),
-//         name : 'Medical App UI',
-//         edit: require('../assets/edit.png'),
-//     },
-//     {
-//         id: '6',
-//         pass: require('../assets/pass.png'),
-//         name : 'Learn Java',
-//         edit: require('../assets/edit.png'),
-//     },
-// ]
 
 
 function Screen2({navigation, route}){
