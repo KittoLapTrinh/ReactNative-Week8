@@ -22,19 +22,6 @@ function Screen1({navigation,}){
             console.error('Error! Data null', error);
         }
     }
-    // const [data, setData] = useState([]);
-    // const [emailn, setEmail] = useState('')
-
-
-    // fetch("https://653f68399e8bd3be29e07f8f.mockapi.io/api/v1/user")
-    //     .then(response=>{
-    //     if (response.ok)
-    //         return response.json()
-    //     })
-    //     .then(dataO=>{
-    //     if(data.length==0)
-    //         setData(dataO)
-    // })
 
     return(
         <View style = {styles.container}>
@@ -57,25 +44,7 @@ function Screen1({navigation,}){
                     >
                     <Text style={{color: 'white' }}>GET STARTED</Text>
                 </TouchableOpacity>
-            
-            {/* {data.length != 0 &&
-                <TouchableOpacity style={{ justifyContent: 'center', alignItems: 'center', backgroundColor: '#00bdd6', borderRadius: 30, marginHorizontal: 30, height: 50 }}
-                    onPress={
-                        () => {
-
-                        for (let i = 0; i < data.length; i++) {
-                            if (data[i].email == emailn) {
-                            navigation.navigate("Screen2", { user: data[i] })
-                            }
-                        }
-
-                        }}
-                    >
-                    <Text style={{color: 'white' }}>GET STARTED</Text>
-                </TouchableOpacity>
-            } */}
-
-           
+ 
         </View>
 
     )
